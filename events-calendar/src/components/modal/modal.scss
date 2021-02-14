@@ -1,0 +1,54 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s visibility, 0.3s opacity;
+
+  &--open {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &__inner {
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em 1.5em;
+    max-width: 500px;
+    width: 100%;
+    background-color: $c-grey-v1;
+    color: $c-white-v1;
+    border-radius: $br;
+  }
+
+  &__alert {
+    margin-bottom: 1em;
+    display: none;
+    color: $c-red-v1;
+    font-size: 0.7em;
+  }
+
+  &__alert--open {
+    display: inline-flex;
+  }
+}
+
+.modal-delete-event {
+
+  &__title {
+    margin-bottom: 1em;
+    font-size: 1.1em;
+    text-align: center;
+  }
+
+  &__buttons {
+    text-align: center;
+  }
+}

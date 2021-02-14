@@ -1,0 +1,15 @@
+// SYSTEM STYLES
+@import "scss/01-variables.scss";
+@import "scss/02-reset-css.scss";
+// @import "scss/03-pixel-perfect.scss";
+// @import "scss/04-grid-layout.scss";
+
+// FONST
+@import "fonts/font.scss";
+
+// CSS COMPONENTS
+@import "components/page/page.scss";
+@import "components/app/app.scss";
+@import "components/form/form.scss";
+@import "components/table/table.scss";
+@import "components/modal/modal.scss";

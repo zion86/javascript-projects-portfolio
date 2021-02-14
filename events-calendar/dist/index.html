@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Calendar</title>
+<link href="main.css" rel="stylesheet"></head>
+
+<body class="page">
+  <section class="app">
+    <header class="app__header">
+      <h1 class="app__title">Calendar</h1>
+      <form class="form">
+        <div class="form__row">
+          <select class="filter" name="filter">
+          </select>
+          <button class="btn btn--new-event">New event +</button>
+        </div>
+      </form>
+    </header>
+    <!-- /.app__header -->
+    <div class="app__body"></div>
+    <!-- /.app__body -->
+  </section>
+  <!-- /.app -->
+
+  <section class="modal">
+    <div class="modal__inner">
+      <div class="modal__alert">
+        <h2>Failed to create an event. Time slot is already booked</h2>
+      </div>
+      <form class="form form--new-event">
+        <div class="form__row">
+          <label class="form__label" for="eventName">Name of the event</label>
+          <input class="form__input" type="text" name="eventName" id="eventName" required>
+        </div>
+        <div class="form__row">
+          <label class="form__label" for="members">Participants</label>
+          <select class="form__select" name="members" id="members"></select>
+        </div>
+        <div class="form__row">
+          <label class="form__label" for="day">Day</label>
+          <select class="form__select" name="day" id="day"></select>
+        </div>
+        <div class="form__row">
+          <label class="form__label" for="time">Time</label>
+          <select class="form__select" name="time" id="time"></select>
+        </div>
+        <div class="form__row form__row--btns">
+          <button class="btn btn--cancel-event">Cancel</button>
+          <button class="btn btn--submit">Create</button>
+        </div>
+      </form>
+    </div>
+  </section>
+  <!-- /.modal -->
+
+  <section class="modal modal-delete-event">
+    <div class="modal__inner">
+      <h2 class="modal-delete-event__title"></h2>
+      <div class="modal-delete-event__buttons">
+        <button class="btn btn--cancel-del">No</button>
+        <button class="btn btn--delete">Yes</button>
+      </div>
+    </div>
+  </section>
+  <!-- /.modal -->
+<script src="main.js"></script></body>
+
+</html>

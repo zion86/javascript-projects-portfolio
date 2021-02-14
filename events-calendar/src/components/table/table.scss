@@ -1,0 +1,31 @@
+table {
+  width: 100%;
+}
+
+tr {
+  display: flex;
+}
+
+th,
+td {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.td--active {
+  color: $c-white-v1;
+  background-color: $c-black-v2;
+  position: relative;
+}
+
+.td--active::after {
+  content: "\2715";
+  display: inline-flex;
+  position: absolute;
+  padding-right: 0.2em;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}

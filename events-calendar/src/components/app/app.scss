@@ -1,0 +1,19 @@
+.app {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1em;
+  padding-right: 1em;
+  max-width: 960px;
+
+  &--blur {
+    filter: blur(5px);
+  }
+
+  &__header {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
