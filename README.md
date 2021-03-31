@@ -11,3 +11,7 @@
 - html: semantic layout
 - css: flexbox, BEM, transition animation, hover effect
 - js: modal window, event listener, locked scroll when open modal menu, scroll doesn't jump when open, close modal window, support IE11
+
+## Parallax effect with multilayer image
+[Parallax effect + JS](https://zion86.github.io/JavaScript-solutions/Parallax-effect-with-multilayer-image/index.html)
+- HTML5, CSS, JAVASCRIPT
