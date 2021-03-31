@@ -1,4 +1,4 @@
-## javascript-projects-portfolio
+## Javascript-projects-portfolio
 
 [Events schedule calendar](https://zion86.github.io/js-portfolio/events-calendar/dist/index.html)
 - html, css: HTML5, forms, table, BEM
