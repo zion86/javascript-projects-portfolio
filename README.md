@@ -12,6 +12,13 @@
 - css: flexbox, BEM, transition animation, hover effect
 - js: modal window, event listener, locked scroll when open modal menu, scroll doesn't jump when open, close modal window, support IE11
 
+## Accordion
+[accordion example](https://zion86.github.io/js-portfolio/accordion/) | [code](https://github.com/zion86/js-portfolio/tree/main/accordion)
+- HTML5, CSS, JAVASCRIPT
+- html: semantic layout
+- css: flexbox, BEM, transition animation, hover effect
+- js: DOM, event delegation, event listener ('click', 'resize'), es6
+
 ## Parallax effect with multilayer image
 [Parallax effect + JS](https://zion86.github.io/JavaScript-solutions/Parallax-effect-with-multilayer-image/index.html) | [code](https://github.com/zion86/JavaScript-solutions/tree/master/Parallax-effect-with-multilayer-image)
 - HTML5, CSS, JAVASCRIPT
