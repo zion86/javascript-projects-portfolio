@@ -8,7 +8,7 @@
 [BMW x6 promosite](https://zion86.github.io/js-portfolio/promosite-bmw-x6/index.html) | [code](https://github.com/zion86/js-portfolio/tree/main/promosite-bmw-x6)
 - html: HTML5, forms, semantic tags
 - css: BEM, flexbox
-- javascript: accordion, tabs, smooth scroll, modal window, block scroll when open modal window, eventListeners, XMLHttpRequest, es6
+- javascript: accordion, tabs, smooth scroll, modal window, block scroll when open modal window, eventListeners, XMLHttpRequest, defer, modules, import, export, es6
 
 ## Fullscreen navigation menu
 [Navigation menu](https://zion86.github.io/JavaScript-solutions/Menu-navigation/fullscreen-navigation-menu/index.html) | [code](https://github.com/zion86/JavaScript-solutions/tree/master/Menu-navigation/fullscreen-navigation-menu)
